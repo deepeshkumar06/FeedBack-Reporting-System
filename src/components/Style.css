@@ -1,0 +1,414 @@
+.body{
+    width: 100%;
+    height: 91.1dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(201, 199, 199);
+}
+
+/* Form */
+
+.login-container{
+    height: 80dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #000; */
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(248, 248, 248);
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+}
+
+label{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+form a{
+    text-decoration: none;
+}
+/* Form */
+/* header */
+
+.header{
+    background: #000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 500px;
+}
+
+.Navbar{
+    background: #000;
+    height: 70px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+.head1 {
+    background-image: url("https://trainingcompany.ca/wp-content/uploads/2022/02/feedback-value-leaders-banner.jpg");
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+    background-size: contain; /* Ensure the background image covers the entire element while maintaining aspect ratio */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.head1 h1{
+    color: black;
+    /* margin-top: 160px; */
+    background-color: white;
+    width: 450px;
+}
+.Navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Navbar a.active{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 10px;
+}
+.Navbar :hover{
+    background-color: rgb(114, 111, 111);
+    color: #b4aaaa;
+    border-radius: 10px;
+}
+
+/* Header */
+
+
+.collect{
+    /* border: 1 px solid black; */
+    background-color: rgb(201, 199, 199);
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feed{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feed input{
+    width: 350px;
+    height: 30px;
+}
+
+.feed button{
+    /* margin-left: 150px; */
+    padding: 10px;
+    background-color: rgb(201, 199, 199);
+    color: black;
+}
+
+/* Admin */
+
+.admin{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(201, 199, 199);
+    height: 150dvh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    background-color: white;
+  }
+  
+  th {
+    background-color: #b0b5ca;
+  }
+  
+
+  .pop  {
+    border: 2px solid #8a7e7e;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .pop input[type="text"] {
+    width: 100%;
+    padding: 4px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+.pop button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .pop button:hover {
+    background-color: #45a049;
+  }
+  
+
+  /* Contact */
+
+  .contact-container{
+    width: 100%;
+    height: 900px;
+  }
+
+  .ContactContainer{
+    border: 1px solid black;
+    width: 70%;
+    height: 600px;
+    top:40px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.contact{
+    background:  #ffffff;
+    width: auto;
+    height: auto;
+    padding: 20px 0px 20px 30px;
+    
+}
+.contact h3{
+    padding: 5px 10px 10px 5px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+}
+.contact span{
+    padding-left: 17px;
+}
+.contact .red-icon{
+    color: #DF4040;
+}
+.contact p{
+    padding: 5px 10px 70px 25px;
+    font-weight: 400;
+    color: rgb(111, 111, 125);
+}
+.contact p a{
+    color: rgb(111, 111, 125);
+}
+.query{
+    background-color:#b0b5ca;
+    width: 70%;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.query a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.query .text{
+    padding: 40px;
+    height: 20px;
+}
+.query .text h1{
+    position: relative;
+    top: 10px;
+}
+.query1 .input {
+    display: grid;
+    row-gap: 10px;
+    width: 240px;
+    position: relative;
+    bottom: 50px;
+    outline: none;
+
+}
+.query1 .input input:focus{
+    outline: none;
+}
+
+.query1 .input textarea:focus{
+    outline: none;
+}
+
+.query1 .input input,
+.query1 .input textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+
+.query1 .input textarea {
+    height: 100px; 
+}
+
+.submit-btn button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    background-color: #ffffff;
+}
+.submit-btn button:hover{
+    color: #dc635b;
+}
+/* Contact */
+
+/* Home */
+.feedback-container {
+    width: 100%;
+    min-height: 100vh; /* Use min-height for responsiveness */
+    background-color: rgb(201, 199, 199); /* Lighter background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service,
+.about,
+.contact-container {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 900px; /* Set maximum width for larger screens */
+    margin-bottom: 40px; /* Added margin between sections */
+    background-color: white;
+    border-radius: 20px; /* Reduced border radius for a smoother look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
+}
+
+.head,
+.heading {
+    background-color: #574f48; /* Use consistent background color for section headings */
+    color: white;
+    text-align: center;
+    padding: 15px 0; /* Added padding for spacing */
+    border-top-left-radius: 20px; /* Adjusted border radius for top corners */
+    border-top-right-radius: 20px;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify; /* Changed to justify text for better readability */
+}
+
+.red-icon {
+    color: #d32f2f; /* Use a consistent color for icons */
+}
+
+.query {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Adjusted max-width for better form appearance */
+}
+
+input[type="text password"],
+textarea {
+    margin-bottom: 10px; /* Added margin between form fields */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added smooth transition */
+}
+
+button[type="submit"]:hover {
+    background-color: #b71c1c; /* Darker shade on hover */
+}
+
+
+/* Profile */
+.profile{
+    background-color: rgb(201, 199, 199);
+    height: 91dvh;
+}
